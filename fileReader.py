@@ -13,8 +13,7 @@ class fileReader:
             for d in dates:
               if date == d:
                   filename = '{}.csv'
-                  formatted_date = d.replace('/', '_')
-                  j = open(filename.format(formatted_date), "a")
+                  j = open(filename.format(d), "a")
                   j.write(line)
         
 
