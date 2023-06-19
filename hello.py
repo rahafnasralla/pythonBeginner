@@ -180,6 +180,14 @@ print("Username is: " + username)
 print('i am learning Python'\
       .capitalize())
 
+dates = ['2023-06-19', '2023-06-20', '2023-06-21']
+date = '2023-06-19'
+
+if [date != x for x in dates]:
+    print("Date is not present in the list.")
+else:
+    print("Date is present in the list.")
+
 
 
 
